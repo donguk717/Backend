@@ -28,6 +28,7 @@ public class PlayerService {
 
 	public JSONArray playerList() {
 		List<Player> p_list = playerMapper.PlayerList();
+		
 
 		JSONArray jsonPlayerList = new JSONArray();
 
